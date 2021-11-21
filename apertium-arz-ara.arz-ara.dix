@@ -23,6 +23,8 @@
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
+    <sdef n="cstr"            c="Noun"/>
+    <sdef n="artic"           c="Noun"/>
     <sdef n="ant"             c="Anthroponym"/>
     <sdef n="cog"             c="Cognomen"/>
     <sdef n="org"             c="Organisation"/>
@@ -99,35 +101,20 @@
 
   <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>جنينة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>حديقة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
 
-      <!-- Female Arab countries -->
-      <e><p><l>الإمارات<b/>العربية<b/>المتحدة<s n="np"/><s n="top"/><s n="f"/></l><r>الإمارات<b/>العربية<b/>المتحدة<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>الجزائر<s n="np"/><s n="top"/><s n="f"/></l><r>الجزائر<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>البحرين<s n="np"/><s n="top"/><s n="f"/></l><r>البحرين<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>السعودية<s n="np"/><s n="top"/><s n="f"/></l><r>السعودية<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>الكويت<s n="np"/><s n="top"/><s n="f"/></l><r>الكويت<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>تونس<s n="np"/><s n="top"/><s n="f"/></l><r>تونس<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>جزر<b/>القمر<s n="np"/><s n="top"/><s n="f"/></l><r>جزر<b/>القمر<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>جيبوتي<s n="np"/><s n="top"/><s n="f"/></l><r>جيبوتي<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>سوريا<s n="np"/><s n="top"/><s n="f"/></l><r>سوريا<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>عمان<s n="np"/><s n="top"/><s n="f"/></l><r>عمان<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>فلسطين<s n="np"/><s n="top"/><s n="f"/></l><r>فلسطين<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>قطر<s n="np"/><s n="top"/><s n="f"/></l><r>قطر<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>ليبيا<s n="np"/><s n="top"/><s n="f"/></l><r>ليبيا<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>مصر<s n="np"/><s n="top"/><s n="f"/></l><r>مصر<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-      <e><p><l>موريتانيا<s n="np"/><s n="top"/><s n="f"/></l><r>موريتانيا<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="cstr"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="cstr"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/><s n="cstr"/></r></p></e>
 
-      <!-- Male Arab countries -->
-      <e><p><l>الأردن<s n="np"/><s n="top"/><s n="m"/></l><r>الأردن<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>السودان<s n="np"/><s n="top"/><s n="m"/></l><r>السودان<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>الصومال<s n="np"/><s n="top"/><s n="m"/></l><r>الصومال<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>العراق<s n="np"/><s n="top"/><s n="m"/></l><r>العراق<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>المغرب<s n="np"/><s n="top"/><s n="m"/></l><r>المغرب<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>اليمن<s n="np"/><s n="top"/><s n="m"/></l><r>اليمن<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>جنوب<b/>السودان<s n="np"/><s n="top"/><s n="m"/></l><r>جنوب<b/>السودان<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>لبنان<s n="np"/><s n="top"/><s n="m"/></l><r>لبنان<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="artic"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="artic"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/><s n="artic"/></r></p></e>
 
+      <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
   </section>
 
 
