@@ -99,19 +99,23 @@
     <sdef n="compound-R"      c="May be the right-side of a compound, or a full word"/>
   </sdefs>
 
+  <pardefs>
+    <pardef n="all_morphological_cases">
+      <e><p><l/><r><s n="nom"/></r></p></e>
+      <e><p><l/><r><s n="gen"/></r></p></e>
+      <e><p><l/><r><s n="acc"/></r></p></e>
+      <e><p><l/><r><s n="nom"/><s n="cstr"/></r></p></e>
+      <e><p><l/><r><s n="gen"/><s n="cstr"/></r></p></e>
+      <e><p><l/><r><s n="acc"/><s n="cstr"/></r></p></e>
+      <e><p><l/><r><s n="nom"/><s n="artic"/></r></p></e>
+      <e><p><l/><r><s n="gen"/><s n="artic"/></r></p></e>
+      <e><p><l/><r><s n="acc"/><s n="artic"/></r></p></e>
+    </pardef>
+  </pardefs>
+
   <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
-
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="cstr"/></r></p></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="cstr"/></r></p></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/><s n="cstr"/></r></p></e>
-
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="artic"/></r></p></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/><s n="artic"/></r></p></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/><s n="artic"/></r></p></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
