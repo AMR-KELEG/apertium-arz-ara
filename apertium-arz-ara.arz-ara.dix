@@ -116,6 +116,18 @@
   <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
       <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+
+      <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+
+      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+
+      <e><p><l>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
