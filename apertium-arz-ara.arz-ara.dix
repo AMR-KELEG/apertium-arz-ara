@@ -123,6 +123,10 @@
       <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
       <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
 
+      <e><p><l>اوضة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>غرفة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>اوضة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>غرفة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>اوضة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>غرفة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+
       <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
       <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
       <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
