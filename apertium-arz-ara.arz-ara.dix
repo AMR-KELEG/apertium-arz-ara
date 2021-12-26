@@ -33,6 +33,7 @@
     <sdef n="pers"            c="Personal pronoun"/>
     <sdef n="ref"             c="Reflexive pronoun"/>
     <sdef n="res"             c="Reciprocal pronoun"/>
+    <sdef n="rel"             c="Relative pronoun"/>
 
     <sdef n="det"             c="Determiner"/>
     <sdef n="pos"             c="Possessive"/>
@@ -41,6 +42,8 @@
     <sdef n="p2"              c="2nd person"/>
     <sdef n="p3"              c="3rd person"/>
 
+    <sdef n="aa"              c="Animate"/>
+    <sdef n="an"              c="Animate/Inanimate"/>
     <sdef n="nn"              c="Inanimate"/>
 
     <sdef n="nt"              c="Neuter"/>
@@ -48,6 +51,7 @@
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
     <sdef n="un"              c="No gender"/>
+    <sdef n="mf"              c="Masculine/Feminine"/>
 
     <sdef n="sg"              c="Singular"/>
     <sdef n="du"              c="Dual"/>
@@ -100,6 +104,23 @@
   </sdefs>
 
   <pardefs>
+    <pardef n="count">
+      <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="du"/></l><r><s n="du"/></r></p></e>
+      <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="one_to_many_count">
+      <e><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
+      <e><p><l><s n="sp"/></l><r><s n="du"/></r></p></e>
+      <e><p><l><s n="sp"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="one_to_many_gender">
+      <e><p><l><s n="mf"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
+    </pardef>
+
     <pardef n="all_morphological_cases">
       <e><p><l/><r><s n="nom"/></r></p></e>
       <e><p><l/><r><s n="gen"/></r></p></e>
@@ -115,21 +136,17 @@
 
   <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>محطة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>ال<s n="det"/><s n ="def"/></l><r>ال<s n="det"/><s n ="def"/></r></p></e>
 
-      <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>ساعة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>اللي<s n="rel"/><s n="an"/></l><r>الذي<s n="rel"/><s n="an"/></r></p><par n="one_to_many_gender"/><par n="one_to_many_count"/></e>
 
-      <e><p><l>اوضة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></l><r>غرفة<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>اوضة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></l><r>غرفة<s n="n"/><s n="f"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>اوضة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></l><r>غرفة<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>محطة<s n="n"/><s n ="f"/><s n="nn"/></l><r>محطة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
 
-      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="du"/></r></p><par n="all_morphological_cases"/></e>
-      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>ساعة<s n="n"/><s n ="f"/><s n="nn"/></l><r>ساعة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
+
+      <e><p><l>اوضة<s n="n"/><s n ="f"/><s n="nn"/></l><r>غرفة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
+
+      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
 
       <e><p><l>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
 
