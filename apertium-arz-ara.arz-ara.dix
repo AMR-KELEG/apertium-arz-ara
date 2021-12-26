@@ -121,7 +121,7 @@
       <e><p><l><s n="mf"/></l><r><s n="f"/></r></p></e>
     </pardef>
 
-    <pardef n="all_morphological_cases">
+    <pardef n="no_to_all_morphological_cases">
       <e><p><l/><r><s n="nom"/></r></p></e>
       <e><p><l/><r><s n="gen"/></r></p></e>
       <e><p><l/><r><s n="acc"/></r></p></e>
@@ -140,15 +140,31 @@
 
       <e><p><l>اللي<s n="rel"/><s n="an"/></l><r>الذي<s n="rel"/><s n="an"/></r></p><par n="one_to_many_gender"/><par n="one_to_many_count"/></e>
 
-      <e><p><l>محطة<s n="n"/><s n ="f"/><s n="nn"/></l><r>محطة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
+      <e><p><l>محطة<s n="n"/><s n ="f"/><s n="nn"/></l><r>محطة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
 
-      <e><p><l>ساعة<s n="n"/><s n ="f"/><s n="nn"/></l><r>ساعة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
+      <e><p><l>ساعة<s n="n"/><s n ="f"/><s n="nn"/></l><r>ساعة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
 
-      <e><p><l>اوضة<s n="n"/><s n ="f"/><s n="nn"/></l><r>غرفة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
+      <e><p><l>اوضة<s n="n"/><s n ="f"/><s n="nn"/></l><r>غرفة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
 
-      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="count"/><par n="all_morphological_cases"/></e>
+      <e><p><l>رقم<s n="n"/><s n="m"/><s n="nn"/></l><r>رقم<s n="n"/><s n="m"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
 
-      <e><p><l>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="all_morphological_cases"/></e>
+      <e><p><l>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></l><r>صباح<s n="n"/><s n="m"/><s n="nn"/><s n="sg"/></r></p><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>سنة<s n="n"/><s n ="f"/><s n="nn"/></l><r>سنة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>حاجة<s n="n"/><s n ="f"/><s n="nn"/></l><r>شئ<s n="n"/><s n ="m"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>رحلة<s n="n"/><s n ="f"/><s n="nn"/></l><r>رحلة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>شنطة<s n="n"/><s n ="f"/><s n="nn"/></l><r>حقيبة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>اوتوبيس<s n="n"/><s n ="m"/><s n="nn"/></l><r>حافلة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>مكالمة<s n="n"/><s n ="f"/><s n="nn"/></l><r>مكالمة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>خريطة<s n="n"/><s n ="f"/><s n="nn"/></l><r>خريطة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>دقيقة<s n="n"/><s n ="f"/><s n="nn"/></l><r>دقيقة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
