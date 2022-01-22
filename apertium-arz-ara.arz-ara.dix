@@ -151,9 +151,22 @@
       <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="du"/></r></p></e>
 
+      <e><p><l>ده<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/></l><r>هذا<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ده<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>هذا<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ده<s n="prn"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>هذا<s n="prn"/><s n="dem"/><s n="m"/><s n="du"/></r></p></e>
+      <e><p><l>ده<s n="prn"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>هذا<s n="prn"/><s n="dem"/><s n="f"/><s n="du"/></r></p></e>
+      <e><p><l>ده<s n="prn"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>هذا<s n="prn"/><s n="dem"/><s n="mf"/><s n="pl"/></r></p></e>
+
+      <e><p><l>ده<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></l><r>هذا<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ده<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></l><r>هذا<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ده<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>هذا<s n="det"/><s n="dem"/><s n="m"/><s n="du"/></r></p></e>
+      <e><p><l>ده<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>هذا<s n="det"/><s n="dem"/><s n="f"/><s n="du"/></r></p></e>
+      <e><p><l>ده<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></l><r>هذا<s n="det"/><s n="dem"/><s n="mf"/><s n="pl"/></r></p></e>
+
       <e><p><l>ورا<s n="pr"/></l><r>وراء<s n="pr"/></r></p></e>
       <e><p><l>في<s n="pr"/></l><r>في<s n="pr"/></r></p></e>
       <e><p><l>على<s n="pr"/></l><r>على<s n="pr"/></r></p></e>
+      <e><p><l>الى<s n="pr"/></l><r>إلى<s n="pr"/></r></p></e>
       <e><p><l>عن<s n="pr"/></l><r>عن<s n="pr"/></r></p></e>
       <e><p><l>مع<s n="pr"/></l><r>مع<s n="pr"/></r></p></e>
       <e><p><l>من<s n="pr"/></l><r>من<s n="pr"/></r></p></e>
