@@ -187,6 +187,11 @@
 
       <e><p><l>دقيقة<s n="n"/><s n ="f"/><s n="nn"/></l><r>دقيقة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
 
+      <e><p><l>دكتور<s n="n"/><s n ="m"/><s n="aa"/></l><r>طبيب<s n="n"/><s n ="m"/><s n="aa"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+      <e><p><l>دكتور<s n="n"/><s n ="f"/><s n="aa"/></l><r>طبيب<s n="n"/><s n ="f"/><s n="aa"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
+      <e><p><l>عربية<s n="n"/><s n ="f"/><s n="nn"/></l><r>سيارة<s n="n"/><s n ="f"/><s n="nn"/></r></p><par n="count"/><par n="no_to_all_morphological_cases"/></e>
+
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
   </section>
